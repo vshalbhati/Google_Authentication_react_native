@@ -15,16 +15,26 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.expo.googleauth"
     },
     "android": {
+      "package": "com.expo.googleauth",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "config": {
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "scheme":"sella",
+    "extra": {
+      "eas": {
+        "projectId": "19851e76-b95c-47c8-b997-7037ef4002af"
+      }
     }
   }
 }
